@@ -1,4 +1,427 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Nawel Benarba — trustworthy AI, federated learning, privacy, fairness and distributed systems"><title>Nawel Benarba — Research</title><style>
-:root{--navy:#183B5B;--blue:#3E6F9E;--sky:#7F99B5;--warmgray:#F3F1ED;--cream:#FFFDF9;--gold:#D5A23A;--orange:#C97B35;--ink:#24303B;--muted:#6C7680;--line:#D9DEE3;--bg:#FAF9F6;--softblue:#EDF3F8;--softgold:#FAF3E2;--softorange:#FBEEE5;--softmix:#F4F6F7}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--ink);background:radial-gradient(circle at 8% 0,#EAF1F7 0,transparent 28%),radial-gradient(circle at 92% 14%,#F6E9D8 0,transparent 22%),linear-gradient(180deg,#FFFDFB 0,#FAF9F6 100%);line-height:1.6}a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}.wrap{max-width:1450px;margin:auto;padding:24px;display:grid;grid-template-columns:300px 1fr;gap:24px}.side{position:sticky;top:18px;align-self:start}.card,.panel,.nav{background:#fffffff0;border:1px solid var(--line);border-radius:24px;box-shadow:0 14px 38px rgba(31,53,86,.08)}.card{padding:18px}.photo{width:100%;aspect-ratio:1/1.08;object-fit:cover;object-position:center 20%;border-radius:17px}.card h1{font-size:30px;line-height:1;margin:16px 0 7px;color:var(--navy)}.role{font-weight:800;color:var(--orange);margin:0}.aff{color:var(--muted);font-size:14px;margin:2px 0 12px}.bio{font-size:14px;color:#435168}.links{display:flex;flex-wrap:wrap;gap:7px;margin-top:14px}.links a,.btn{padding:7px 10px;border-radius:999px;background:var(--softblue);color:var(--navy);font-size:12px;font-weight:750;border:1px solid #dce6f3}.links a:nth-child(2){background:var(--softgold);border-color:#ecd9a7}.links a:nth-child(3){background:var(--softorange);border-color:#ecc8a4}.nav{padding:10px;margin-top:12px;display:grid;grid-template-columns:1fr 1fr;gap:4px}.nav a{padding:8px;border-radius:10px;color:#435168;font-size:12px;font-weight:700}.nav a:hover{background:var(--softblue);text-decoration:none}.main{display:grid;gap:17px}.panel{padding:27px}.hero{border:none;background:linear-gradient(130deg,#183B5B 0%,#3E6F9E 68%,#B98743 118%);color:white}.hero .kicker{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#F6DE9F}.hero h2{font-size:clamp(34px,5vw,62px);line-height:1.02;margin:13px 0 15px;max-width:950px}.hero p{color:#F8FAFC;max-width:1000px}.hero a{color:white;text-decoration:underline}.tags{display:flex;flex-wrap:wrap;gap:8px}.tags span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:7px 10px;font-size:12px;font-weight:650}.title{font-size:25px;font-weight:850;color:var(--navy);margin:0 0 18px}.news article,.timeline article,.talk article{display:grid;grid-template-columns:110px 1fr;gap:15px;padding:12px 0;border-top:1px solid var(--line)}.news article:first-child,.timeline article:first-child,.talk article:first-child{border-top:0}.news time,.date{font-weight:850;color:var(--orange)}.news p,.timeline p,.talk p{margin:0;color:#48566d}.pubs{display:grid;gap:15px}.pub{display:grid;grid-template-columns:minmax(260px,370px) 1fr;gap:19px;padding:16px;border:1px solid var(--line);border-radius:20px;background:white}.fig{min-height:210px;border:1px solid var(--line);border-radius:15px;overflow:hidden;background:var(--softmix);display:flex;align-items:center;justify-content:center;color:var(--muted);font-weight:700;text-align:center;padding:18px}.fig img{width:100%;height:100%;object-fit:contain;background:white}.survey{padding:21px;display:block;background:linear-gradient(145deg,#edf4fb,#fff7ea)}.survey b{display:inline-block;background:var(--gold);color:white;padding:5px 9px;border-radius:999px;font-size:11px}.survey h3{font-size:24px;color:var(--navy);margin:14px 0 8px}.survey p{color:#4b5c72}.meta{display:flex;gap:8px;align-items:center;margin-bottom:8px}.venue{padding:5px 9px;border-radius:999px;font-size:11px;font-weight:850;background:var(--softgold);color:#8d6411}.conf{background:var(--softorange);color:#9b5f1d}.yr{font-size:12px;color:var(--muted);font-weight:700}.pub h3{font-size:22px;line-height:1.18;color:var(--navy);margin:0 0 8px}.authors,.desc{margin:0;color:#536078}.desc{margin-top:9px}.plinks{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.plinks a{padding:7px 10px;border-radius:999px;background:var(--softblue);color:var(--navy);font-size:12px;font-weight:800;border:1px solid #dce6f3}.three,.collab{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.mini{padding:17px;border:1px solid var(--line);border-radius:17px;background:white}.mini h3{margin:0 0 7px;color:var(--navy)}.mini p{margin:0;color:#536078}.soft .mini:nth-child(1){border-top:4px solid var(--orange)}.soft .mini:nth-child(2){border-top:4px solid var(--gold)}.soft .mini:nth-child(3){border-top:4px solid var(--blue)}.two{display:grid;grid-template-columns:1fr 1fr;gap:22px}.two h3{color:var(--navy)}.two ul{padding-left:18px;color:#48566d}.review{display:flex;flex-wrap:wrap;gap:8px}.review span{padding:9px 12px;border-radius:999px;background:#fff;border:1px solid var(--line);font-size:13px;font-weight:700}.outreach{padding:15px;border-radius:17px;background:linear-gradient(135deg,#eef4fb,#fff3e6);margin-top:16px}.contact{display:grid;grid-template-columns:1fr 1fr;gap:12px}.contact div{padding:15px;border:1px solid var(--line);border-radius:16px;background:white}.contact .full{grid-column:1/-1}.contact h3{margin:0 0 5px;color:var(--navy)}.contact p{margin:0;color:#536078}@media(max-width:1050px){.wrap{grid-template-columns:1fr}.side{position:static}.card{display:grid;grid-template-columns:180px 1fr;column-gap:20px}.photo{grid-row:1/7}.nav{grid-template-columns:repeat(4,1fr)}.three,.collab{grid-template-columns:1fr 1fr}}@media(max-width:720px){.wrap{padding:12px}.card{display:block}.nav{grid-template-columns:1fr 1fr}.pub,.news article,.timeline article,.talk article,.two,.contact{grid-template-columns:1fr}.three,.collab{grid-template-columns:1fr}.contact .full{grid-column:auto}.panel{padding:20px}}
-</style></head><body><div class="wrap"><aside class="side"><div class="card"><img class="photo" src="assets/web/nawel.webp" alt="Nawel Benarba"><h1>Nawel Benarba</h1><p class="role">Ph.D. in Computer Science</p><p class="aff">INSA Lyon · LIRIS laboratory</p><p class="bio">Researcher in <b>trustworthy AI</b>, <b>federated learning</b>, privacy-preserving machine learning, fairness and distributed systems.</p><div class="links"><a href="mailto:nawel.benarba@insa-lyon.fr">✉ Email</a><a href="https://www.nawel-benarba.com/">⌂ Website</a><a href="https://github.com/FL-Bias/ASTRAL">⌘ GitHub</a></div></div><nav class="nav"><a href="#about">About</a><a href="#news">News</a><a href="#pubs">Publications</a><a href="#software">Software</a><a href="#collab">Collaborations</a><a href="#teaching">Teaching</a><a href="#reviewing">Reviewing</a><a href="#service">Service</a><a href="#talks">Talks</a><a href="#education">Education</a><a href="#contact">Contact</a></nav></aside><main class="main"><section id="about" class="panel hero"><div class="kicker">Trustworthy AI · Federated Learning · Privacy · Fairness</div><h2>Building fair, privacy-preserving, and high-performing distributed AI systems.</h2><p>I received my Ph.D. in Computer Science from <a href="https://www.insa-lyon.fr/">INSA Lyon</a>, where I conducted research at the <a href="https://liris.cnrs.fr/">LIRIS laboratory</a> within the DRIM research group, under the supervision of <a href="https://perso.liris.cnrs.fr/sara.bouchenak/">Prof. Sara Bouchenak</a>. My research studies how decentralized AI can remain accurate while providing stronger fairness and privacy guarantees.</p><p>My interests include fair, private and trustworthy AI; resilient and highly available distributed systems; and the ethical, societal and regulatory implications of AI and distributed technologies.</p><div class="tags"><span>Federated Learning</span><span>Fairness</span><span>Privacy</span><span>Trustworthy AI</span><span>Distributed Systems</span></div></section><section id="news" class="panel"><h2 class="title">News & highlights</h2><div class="news"><article><time>2026</time><p>Reviewing / program committee activity for <b>SRDS, ICDCS, WAFL, Middleware, TDSC, COMPAS</b> and <b>PoPETs</b>.</p></article><article><time>2026</time><p><b>A Quantitative and Qualitative Analysis of Data Selection Impact on Machine Learning Fairness and Utility</b> — IEEE Access.</p></article><article><time>2025</time><p><b>Bias in Federated Learning: A Comprehensive Survey</b> published in ACM Computing Surveys.</p></article><article><time>2025</time><p>Paper presentation at <b>DSN 2025</b> and Federated Learning coding session for the CITADEL project.</p></article><article><time>2024</time><p>Paper presentations at <b>Middleware</b> and <b>UbiComp</b>, plus invited talks at <b>ComPAS</b> and the <b>M4DI</b> project meeting.</p></article></div></section><section id="pubs" class="panel"><h2 class="title">Publications</h2><div class="pubs"><article class="pub"><div class="fig survey"><b>Survey</b><h3>Bias in Federated Learning</h3><p>Taxonomy of bias types, causes, mitigation strategies, guarantees, evaluation metrics and open research directions.</p></div><div><div class="meta"><span class="venue">ACM Computing Surveys</span><span class="yr">2025</span></div><h3>Bias in Federated Learning: A Comprehensive Survey</h3><p class="authors"><b>Nawel Benarba</b>, Sara Bouchenak</p><p class="desc">A comprehensive investigation of demographic, performance-related and contribution-related bias in federated learning.</p><div class="plinks"><a href="https://doi.org/10.1145/3735125">Paper ↗</a></div></div></article><article class="pub"><div class="fig"><img src="assets/web/energy.webp" alt="DSN paper overview"></div><div><div class="meta"><span class="venue conf">DSN 2025</span><span class="yr">2025</span></div><h3>Anomaly Detection in Energy Performance Certificates – From Oblivious to Enlightened</h3><p class="authors"><b>Nawel Benarba</b>, Mathieu Chevalier, Sara Bouchenak, Benjamin Bertin, Olivier Jung</p><p class="desc">An iterative cross-method approach for identifying anomalies and anomaly causes in large-scale Energy Performance Certificate data.</p><div class="plinks"><a href="https://ieeexplore.ieee.org/document/11041130">Paper ↗</a></div></div></article><article class="pub"><div class="fig"><img src="assets/web/dinar.webp" alt="DINAR overview"></div><div><div class="meta"><span class="venue conf">Middleware 2024</span><span class="yr">2024</span></div><h3>Personalized Privacy-Preserving Federated Learning</h3><p class="authors">Cédric Boscher, <b>Nawel Benarba</b>, Fatima Elhattab, Sara Bouchenak</p><p class="desc">DINAR identifies and obfuscates privacy-sensitive model layers to mitigate membership inference attacks while preserving utility.</p><div class="plinks"><a href="https://dl.acm.org/doi/10.1145/3702025.3702043">Paper ↗</a><a href="https://github.com/sara-bouchenak/DINAR">Code ↗</a></div></div></article><article class="pub"><div class="fig"><img src="assets/web/astral.webp" alt="ASTRAL overview"></div><div><div class="meta"><span class="venue conf">UbiComp / IMWUT</span><span class="yr">2024</span></div><h3>Bias Mitigation in Federated Learning for Edge Computing</h3><p class="authors">Yasmine Djebrouni, <b>Nawel Benarba</b>, Ousmane Touat, Pasquale De Rosa, Sara Bouchenak, Angela Bonifati, Pascal Felber, Vania Marangozova, Valerio Schiavoni</p><p class="desc">ASTRAL computes aggregation weights that jointly account for model fairness and accuracy in federated learning.</p><div class="plinks"><a href="https://dl.acm.org/doi/10.1145/3678529">Paper ↗</a><a href="https://github.com/FL-Bias/ASTRAL">Code ↗</a></div></div></article><article class="pub"><div class="fig"><img src="assets/web/elapse.webp" alt="ELAPSE overview"></div><div><div class="meta"><span class="venue">IEEE Access</span><span class="yr">2026</span></div><h3>A Quantitative and Qualitative Analysis of Data Selection Impact on Machine Learning Fairness and Utility</h3><p class="authors"><b>Nawel Benarba</b>, Zeyang Kong, Sara Bouchenak</p><p class="desc">Large-scale empirical study of how data selection affects model utility and fairness, supported by the open-source ELAPSE framework.</p><div class="plinks"><a href="https://github.com/sara-bouchenak/ELAPSE">ELAPSE ↗</a></div></div></article><article class="pub"><div class="fig survey" style="background:linear-gradient(145deg,#F7EEE5,#FCF7EC)"><b style="background:var(--orange)">Survey</b><h3>Multimodal Federated Learning</h3><p>Homogeneous, heterogeneous and hybrid MMFL systems, supported modalities, client architectures, challenges and future directions.</p></div><div><div class="meta"><span class="venue">Neural Computing and Applications</span><span class="yr">2025</span></div><h3>A Survey on Multimodal Federated Learning</h3><p class="authors">Stefano Grosso, <b>Nawel Benarba</b>, Sara Bouchenak, Roberto Esposito, Mirko Polato</p></div></article></div></section><section id="software" class="panel"><h2 class="title">Open-source software & research frameworks</h2><div class="three soft"><div class="mini"><h3>ASTRAL</h3><p>Federated learning system for demographic bias mitigation.</p><div class="plinks"><a href="https://github.com/FL-Bias/ASTRAL">GitHub ↗</a></div></div><div class="mini"><h3>DINAR</h3><p>Fine-grained privacy-preserving federated learning against membership inference attacks.</p><div class="plinks"><a href="https://github.com/sara-bouchenak/DINAR">GitHub ↗</a></div></div><div class="mini"><h3>ELAPSE</h3><p>Framework for evaluating data-selection impacts on machine-learning utility and fairness.</p><div class="plinks"><a href="https://github.com/sara-bouchenak/ELAPSE">GitHub ↗</a></div></div></div></section><section id="collab" class="panel"><h2 class="title">Collaborations</h2><div class="collab"><div class="mini"><h3>Lyon 1 University</h3><p><a href="https://perso.liris.cnrs.fr/angela.bonifati/">Prof. Angela Bonifati</a></p></div><div class="mini"><h3>Grenoble Alpes University</h3><p><a href="https://vmarangozova.github.io/">Prof. Vania Marangozova</a></p></div><div class="mini"><h3>University of Neuchâtel</h3><p>Prof. <a href="https://www.unine.ch/info/en/home/repertoire/pascal-felber.html">Pascal Felber</a> & Prof. <a href="https://www.unine.ch/info/en/home/repertoire/valerio-schiavoni.html">Valerio Schiavoni</a></p></div><div class="mini"><h3>University of Turin</h3><p>Prof. Roberto Esposito & Dr. <a href="https://makgyver.github.io/">Mirko Polato</a></p></div></div></section><section id="teaching" class="panel"><h2 class="title">Teaching, mentoring & scientific mediation</h2><div class="two"><div><h3>Teaching</h3><ul><li><b>Federated Learning</b> — Master 2 MIASHS, Lyon 2 University, 2025</li><li><b>Programming Computer Networked Systems</b> — INSA Lyon, 2023 & 2025</li><li><b>Introductory Mathematics Courses</b> — INSA Lyon, 2024 & 2025</li></ul></div><div><h3>Supervision & mentoring</h3><ul><li><b>2025</b> — Mathieu Chevalier, James Sudlow & Artur Vieira Pereira — data science and machine learning.</li><li><b>2024</b> — Thanh Lam Dang — data management and bias.</li><li><b>2024</b> — Mathieu Chevalier, James Sudlow & Artur Vieira Pereira — identifying bias-inducing attributes.</li><li><b>2024</b> — Zeyang Kong — impact of data management on bias.</li></ul></div></div><div class="outreach"><b>Science engagement initiatives for youth — LIRIS, 2023.</b> Presentation of doctoral studies and research topics to middle-school interns.</div></section><section id="reviewing" class="panel"><h2 class="title">Reviewing & academic service</h2><div class="review"><span>SRDS 2025, 2026</span><span>ICDCS 2024, 2026</span><span>WAFL @ ECML-PKDD 2024, 2025, 2026</span><span>Middleware 2026</span><span>IEEE TDSC 2026</span><span>COMPAS 2026</span><span>PoPETs 2027</span></div></section><section id="service" class="panel"><h2 class="title">Professional service & collective responsibilities</h2><div class="timeline"><article><div class="date">2023–2026</div><div><h3>Doctoral Student Representative</h3><p>InfoMaths Lyon Doctoral School — board member, interface between doctoral students and the school, and organization of the doctoral school scientific day.</p></div></article><article><div class="date">2023–2024</div><div><h3>DRIM Team Seminar Coordinator</h3><p>LIRIS — research seminars and reading-group discussion sessions.</p></div></article><article><div class="date">2023, 2025</div><div><h3>Student Volunteer</h3><p>GDR RSD Summer School on Distributed Learning for Systems and Networks (2023) and IEEE/IFIP DSN (2025).</p></div></article></div></section><section id="talks" class="panel"><h2 class="title">Talks & invited presentations</h2><div class="talk"><article><div class="date">Jun 2025</div><p><b>DSN 2025</b> — Anomaly Detection in Energy Performance Certificates – From Oblivious to Enlightened.</p></article><article><div class="date">May 2025</div><p><b>CITADEL project</b> — Introductory Federated Learning coding session.</p></article><article><div class="date">Dec 2024</div><p><b>Middleware 2024</b> — Personalized Privacy-Preserving Federated Learning, paper & poster.</p></article><article><div class="date">Oct 2024</div><p><b>UbiComp 2024</b> — Bias Mitigation in Federated Learning for Edge Computing.</p></article><article><div class="date">Jul 2024</div><p><b>ComPAS 2024</b> — invited talk, ASTRAL: Accurate BiaS MiTigation in FedeRAted Learning.</p></article><article><div class="date">Mar 2024</div><p><b>M4DI</b> — invited talk, Bias in Federated Learning.</p></article><article><div class="date">Jul 2023</div><p><b>ComPAS 2023</b> — Empirical Analysis of Bias in Federated Learning.</p></article><article><div class="date">May 2023</div><p><b>IRIXYS Workshop</b> — ASTRAL: Accurate BiaS MiTigation in FedeRAted Learning.</p></article><article><div class="date">Jan 2023</div><p><b>CNRS GDR-RSD</b> — Fairness and Privacy Issues in Federated Learning.</p></article></div></section><section id="education" class="panel"><h2 class="title">Education & academic path</h2><div class="timeline"><article><div class="date">2022–2026</div><div><h3>Ph.D. in Computer Science — INSA Lyon</h3><p>Bias, Fairness and Privacy Guarantees in Decentralized AI: Towards a Multi-Objective Approach.</p></div></article><article><div class="date">2021–2022</div><div><h3>Master 2 in Computer Systems — ESI Algiers</h3></div></article><article><div class="date">2016–2022</div><div><h3>Computer Science Engineer’s Degree — ESI Algiers</h3><p>Highest Honors.</p></div></article></div></section><section id="contact" class="panel"><h2 class="title">Contact</h2><div class="contact"><div><h3>✉ Email</h3><p><a href="mailto:nawel.benarba@insa-lyon.fr">nawel.benarba@insa-lyon.fr</a></p></div><div><h3>☎ Phone</h3><p>+33 (0)6 46 02 49 11</p></div><div class="full"><h3>⌖ Address</h3><p>INSA Lyon · Département Informatique · Bâtiment Blaise Pascal · 20 Avenue Albert Einstein · 69621 Villeurbanne Cedex · France</p></div></div></section></main></div></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nawel Benarba — Research</title>
+<meta name="description" content="Nawel Benarba — trustworthy AI, federated learning, privacy, fairness, data selection and distributed systems">
+<style>
+:root{
+  --navy:#183B5B;
+  --blue:#3E6F9E;
+  --blue2:#6F8EAD;
+  --gold:#D5A23A;
+  --orange:#C97B35;
+  --ink:#263342;
+  --muted:#6E7885;
+  --line:#E1E5E8;
+  --bg:#FBFAF8;
+  --card:#FFFFFF;
+  --softblue:#EDF3F8;
+  --softgold:#FAF3E2;
+  --softorange:#FBEEE5;
+  --softgray:#F4F3F0;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--bg);color:var(--ink);
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  line-height:1.55
+}
+a{color:inherit;text-decoration:none}
+a:hover{color:var(--blue)}
+.topbar{
+  position:sticky;top:0;z-index:30;background:rgba(255,255,255,.94);
+  backdrop-filter:blur(10px);border-bottom:1px solid var(--line)
+}
+.topbar-inner{
+  max-width:1380px;margin:auto;height:68px;padding:0 28px;
+  display:flex;align-items:center;justify-content:space-between;gap:24px
+}
+.brand{font-weight:850;font-size:18px;color:var(--navy)}
+.topnav{display:flex;gap:24px;flex-wrap:wrap;justify-content:flex-end}
+.topnav a{font-size:14px;font-weight:750;color:#485362}
+.layout{
+  max-width:1380px;margin:0 auto;display:grid;grid-template-columns:285px 1fr;
+  gap:32px;padding:24px 28px 64px
+}
+.sidebar{position:sticky;top:92px;height:max-content}
+.profile-card,.side-card{
+  background:#fff;border:1px solid var(--line);border-radius:28px;
+  box-shadow:0 10px 30px rgba(24,59,91,.05)
+}
+.profile-card{padding:12px 12px 18px}
+.profile-card img{
+  width:100%;aspect-ratio:1/.98;object-fit:cover;object-position:center 18%;
+  border-radius:22px;background:#f7f7f7
+}
+.profile-info{padding:10px 4px 0}
+.profile-info h1{font-size:24px;margin:0 0 5px;color:var(--navy);letter-spacing:-.02em}
+.profile-info p{margin:0;color:#657180;font-size:13px}
+.icon-row{display:flex;gap:10px;margin-top:15px}
+.icon{
+  width:38px;height:38px;border-radius:50%;border:1px solid var(--line);
+  display:grid;place-items:center;background:#fff;font-weight:800;color:var(--navy)
+}
+.side-card{padding:17px;margin-top:14px}
+.side-label{
+  text-transform:uppercase;letter-spacing:.12em;font-size:10px;font-weight:850;color:#7B8792;
+  margin-bottom:10px
+}
+.chips{display:flex;flex-wrap:wrap;gap:7px}
+.chip{
+  display:inline-flex;align-items:center;border-radius:999px;padding:6px 10px;
+  font-size:12px;font-weight:750;border:1px solid #DCE5EC;background:var(--softblue);color:var(--navy)
+}
+.chip.gold{background:var(--softgold);border-color:#E9D8AC;color:#806218}
+.chip.orange{background:var(--softorange);border-color:#EDCCB5;color:#955B27}
+.chip.gray{background:var(--softgray);border-color:#E2E0DA;color:#62655F}
+.main{min-width:0}
+.hero{padding:2px 0 26px}
+.kicker{
+  display:inline-flex;border-radius:999px;padding:7px 12px;
+  background:var(--softblue);border:1px solid #D9E5EE;color:var(--blue);
+  font-size:13px;font-weight:800
+}
+.hero h2{
+  margin:12px 0 15px;max-width:980px;color:var(--navy);
+  font-size:clamp(42px,5vw,66px);line-height:.98;letter-spacing:-.045em
+}
+.hero .lead{font-size:17px;color:#516174;max-width:1000px;margin:0}
+.section{padding:18px 0 12px}
+.section-head{display:flex;align-items:center;gap:10px;margin-bottom:4px}
+.section-icon{
+  width:36px;height:36px;border-radius:12px;display:grid;place-items:center;
+  background:linear-gradient(135deg,var(--softblue),var(--softgold));
+  color:var(--navy);font-weight:900
+}
+.section h2{font-size:30px;letter-spacing:-.025em;margin:0;color:var(--navy)}
+.section-sub{margin:2px 0 18px;color:#6C7785;font-size:15px}
+.news-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.news-card{
+  min-height:180px;border-radius:24px;padding:22px;background:#fff;border:1px solid var(--line);
+  box-shadow:0 14px 28px rgba(24,59,91,.045)
+}
+.news-card.blue{background:linear-gradient(145deg,#F7FAFD,#EDF4F9);border-left:5px solid var(--blue)}
+.news-card.orange{background:linear-gradient(145deg,#FFFDF9,#FBF1E8);border-left:5px solid var(--orange)}
+.badge{
+  display:inline-flex;border-radius:999px;padding:5px 9px;font-size:10px;font-weight:850;
+  letter-spacing:.07em;text-transform:uppercase;background:#fff;border:1px solid var(--line);color:#6B7682
+}
+.news-date{font-size:13px;color:#6C7785;font-weight:750;margin:12px 0 4px}
+.news-card h3{font-size:19px;line-height:1.25;margin:0 0 8px;color:var(--navy)}
+.news-card p{font-size:14px;color:#5A6878;margin:0}
+.dots{display:flex;justify-content:center;gap:6px;margin-top:11px}
+.dot{width:7px;height:7px;border-radius:50%;background:#D7DEE4}
+.dot.active{width:24px;border-radius:999px;background:var(--blue)}
+.group-title{
+  display:flex;align-items:center;gap:7px;font-size:17px;font-weight:800;color:#596472;
+  margin:20px 0 3px;padding-bottom:10px;border-bottom:1px solid var(--line)
+}
+.pub-row{
+  display:grid;grid-template-columns:95px 1fr;gap:18px;padding:18px 4px;
+  border-bottom:1px solid var(--line);align-items:center
+}
+.pub-thumb{
+  width:95px;height:76px;border-radius:16px;border:1px solid var(--line);
+  background:#fff;display:flex;align-items:center;justify-content:center;overflow:hidden
+}
+.pub-thumb img{width:100%;height:100%;object-fit:contain}
+.pub-thumb.placeholder{
+  background:linear-gradient(145deg,var(--softblue),#fff);position:relative;color:var(--blue);font-size:28px;font-weight:900
+}
+.pub-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center;margin-bottom:6px}
+.year{font-size:13px;font-weight:800;color:#667280}
+.venue{
+  border-radius:999px;padding:5px 10px;background:var(--softblue);
+  color:var(--navy);font-size:11px;font-weight:800;border:1px solid #DCE6EE
+}
+.venue.gold{background:var(--softgold);border-color:#ECDCA9}
+.venue.orange{background:var(--softorange);border-color:#EDCDB6}
+.pub-row h3{font-size:18px;line-height:1.24;margin:0 0 5px;color:var(--navy)}
+.authors{font-size:13px;color:#6B7683}
+.actions{display:flex;gap:8px;margin-top:10px}
+.action{
+  border-radius:999px;padding:6px 10px;background:#fff;border:1px solid var(--line);
+  color:var(--navy);font-size:11px;font-weight:800
+}
+.cards3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.framework{
+  min-height:190px;padding:22px;border-radius:24px;border:1px solid var(--line);background:#fff
+}
+.framework:nth-child(1){background:linear-gradient(145deg,#FFFDFC,#FBF0E7)}
+.framework:nth-child(2){background:linear-gradient(145deg,#FCFDFC,#F0F5F7)}
+.framework:nth-child(3){background:linear-gradient(145deg,#FFFFFF,#EFF5FA)}
+.framework .ficon{font-size:30px;margin-bottom:16px;color:var(--orange)}
+.framework:nth-child(2) .ficon{color:var(--blue2)}
+.framework:nth-child(3) .ficon{color:var(--blue)}
+.framework h3{font-size:22px;margin:0 0 8px;color:var(--navy)}
+.framework p{margin:0;color:#607082;font-size:14px}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.info-card{
+  background:#fff;border:1px solid var(--line);border-radius:22px;padding:20px;
+  box-shadow:0 10px 24px rgba(24,59,91,.035)
+}
+.info-card h3{margin:0 0 8px;color:var(--navy);font-size:18px}
+.info-card p,.info-card li{color:#5F6D7C;font-size:14px}
+.info-card ul{margin:8px 0 0;padding-left:18px}
+.timeline-item{
+  display:grid;grid-template-columns:110px 1fr;gap:18px;padding:14px 0;border-bottom:1px solid var(--line)
+}
+.timeline-date{font-size:13px;font-weight:850;color:var(--orange)}
+.timeline-item h3{margin:0;color:var(--navy);font-size:17px}
+.timeline-item p{margin:4px 0 0;color:#667382;font-size:14px}
+.footer{padding:30px 0;color:#7B8590;font-size:12px}
+@media(max-width:1050px){
+  .topnav{display:none}
+  .layout{grid-template-columns:1fr}
+  .sidebar{position:static;display:grid;grid-template-columns:260px 1fr;gap:14px}
+  .side-card{margin-top:0}
+}
+@media(max-width:760px){
+  .topbar-inner,.layout{padding-left:16px;padding-right:16px}
+  .sidebar{display:block}.side-card{margin-top:14px}
+  .news-grid,.cards3,.two-col{grid-template-columns:1fr}
+  .hero h2{font-size:43px}
+  .pub-row{grid-template-columns:78px 1fr}.pub-thumb{width:78px;height:64px}
+}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#top">Nawel Benarba</a>
+    <nav class="topnav">
+      <a href="#publications">Publications</a>
+      <a href="#software">Software</a>
+      <a href="#teaching">Teaching & Mentoring</a>
+      <a href="#service">Professional Service</a>
+      <a href="#reviewing">Reviewing</a>
+      <a href="#talks">Talks</a>
+      <a href="#experience">Experience</a>
+    </nav>
+  </div>
+</header>
+
+<div id="top" class="layout">
+  <aside class="sidebar">
+    <div class="profile-card">
+      <img src="assets/web/nawel.webp" alt="Nawel Benarba">
+      <div class="profile-info">
+        <h1>Nawel Benarba</h1>
+        <p>Ph.D. in Computer Science · Trustworthy AI & Distributed Systems</p>
+        <div class="icon-row">
+          <a class="icon" href="mailto:nawel.benarba@insa-lyon.fr" aria-label="Email">✉</a>
+          <span class="icon">☎</span>
+          <a class="icon" href="https://www.linkedin.com/" aria-label="LinkedIn">in</a>
+          <a class="icon" href="https://scholar.google.com/" aria-label="Google Scholar">G</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-card">
+      <div class="side-label">Research interests</div>
+      <div class="chips">
+        <span class="chip">Federated Learning</span>
+        <span class="chip orange">Fairness</span>
+        <span class="chip gold">Privacy</span>
+        <span class="chip gray">Data Selection</span>
+        <span class="chip">Distributed Systems</span>
+      </div>
+    </div>
+
+    <div class="side-card">
+      <div class="side-label">Selected venues</div>
+      <div class="chips">
+        <span class="chip">ACM Computing Surveys</span>
+        <span class="chip orange">IEEE Access</span>
+        <span class="chip gold">Middleware</span>
+        <span class="chip gray">UbiComp</span>
+        <span class="chip">DSN</span>
+      </div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <section class="hero">
+      <div class="kicker">Trustworthy AI · Federated Learning · Distributed Systems</div>
+      <h2>Fair, privacy-preserving, and high-performing AI systems for decentralized systems.</h2>
+      <p class="lead">My research focuses on trustworthy machine learning in decentralized settings, with an emphasis on fairness, privacy, data selection, federated learning, and distributed systems.</p>
+    </section>
+
+    <section class="section" id="news">
+      <div class="section-head"><div class="section-icon">↗</div><h2>News</h2></div>
+      <p class="section-sub">Recent highlights — swipe or use the arrows to explore.</p>
+      <div class="news-grid">
+        <article class="news-card blue">
+          <span class="badge">Publication</span>
+          <div class="news-date">2026</div>
+          <h3>IEEE Access paper accepted</h3>
+          <p>A Quantitative and Qualitative Analysis of Data Selection Impact on Machine Learning Fairness and Utility.</p>
+        </article>
+        <article class="news-card orange">
+          <span class="badge">Upcoming talk</span>
+          <div class="news-date">15 Sep 2026</div>
+          <h3>Women in Science Workshop · WiSe</h3>
+          <p>Invited roundtable on research careers, backgrounds, and challenges for women in science.</p>
+        </article>
+      </div>
+      <div class="dots"><span class="dot active"></span><span class="dot"></span><span class="dot"></span></div>
+    </section>
+
+    <section class="section" id="publications">
+      <div class="section-head"><div class="section-icon">📚</div><h2>Publications</h2></div>
+      <p class="section-sub">Peer-reviewed journal and conference publications, ordered by year.</p>
+
+      <div class="group-title">🧾 International Journals</div>
+
+      <article class="pub-row">
+        <div class="pub-thumb"><img src="assets/web/elapse.webp" alt=""></div>
+        <div>
+          <div class="pub-meta"><span class="year">2026</span><span class="venue">IEEE Access</span></div>
+          <h3>A Quantitative and Qualitative Analysis of Data Selection Impact on Machine Learning Fairness and Utility</h3>
+          <div class="authors">N. Benarba, Z. Kong, S. Bouchenak</div>
+          <div class="actions"><a class="action" href="#">Paper</a><a class="action" href="https://github.com/sara-bouchenak/ELAPSE">Code</a></div>
+        </div>
+      </article>
+
+      <article class="pub-row">
+        <div class="pub-thumb placeholder">◯◯◯</div>
+        <div>
+          <div class="pub-meta"><span class="year">2025</span><span class="venue gold">Neural Computing and Applications</span></div>
+          <h3>A Survey on Multimodal Federated Learning</h3>
+          <div class="authors">S. Grosso, N. Benarba, S. Bouchenak, R. Esposito, M. Polato</div>
+          <div class="actions"><a class="action" href="#">Paper</a></div>
+        </div>
+      </article>
+
+      <article class="pub-row">
+        <div class="pub-thumb placeholder">⌁</div>
+        <div>
+          <div class="pub-meta"><span class="year">2025</span><span class="venue">ACM Computing Surveys</span></div>
+          <h3>Bias in Federated Learning: A Comprehensive Survey</h3>
+          <div class="authors">N. Benarba, S. Bouchenak</div>
+          <div class="actions"><a class="action" href="https://doi.org/10.1145/3735125">Paper</a></div>
+        </div>
+      </article>
+
+      <div class="group-title">🏛 International Conferences</div>
+
+      <article class="pub-row">
+        <div class="pub-thumb placeholder">▱</div>
+        <div>
+          <div class="pub-meta"><span class="year">2026</span><span class="venue orange">45th IEEE International Symposium on Reliable Distributed Systems (SRDS 2026)</span></div>
+          <h3>Federated Learning Data Selection: Revealing the Hidden Dangers on Heterogeneous FL Systems</h3>
+          <div class="authors">Artur Vieira Pereira, Nawel Benarba, Sara Bouchenak</div>
+        </div>
+      </article>
+
+      <article class="pub-row">
+        <div class="pub-thumb"><img src="assets/web/energy.webp" alt=""></div>
+        <div>
+          <div class="pub-meta"><span class="year">2025</span><span class="venue">DSN 2025</span></div>
+          <h3>Anomaly Detection in Energy Performance Certificates – From Oblivious to Enlightened</h3>
+          <div class="authors">N. Benarba, M. Chevalier, S. Bouchenak, B. Bertin, O. Jung</div>
+          <div class="actions"><a class="action" href="https://ieeexplore.ieee.org/document/11041130">Paper</a></div>
+        </div>
+      </article>
+
+      <article class="pub-row">
+        <div class="pub-thumb"><img src="assets/web/dinar.webp" alt=""></div>
+        <div>
+          <div class="pub-meta"><span class="year">2024</span><span class="venue gold">Middleware 2024</span></div>
+          <h3>Personalized Privacy-Preserving Federated Learning</h3>
+          <div class="authors">C. Boscher, N. Benarba, F. Elhattab, S. Bouchenak</div>
+          <div class="actions"><a class="action" href="https://dl.acm.org/doi/10.1145/3702025.3702043">Paper</a><a class="action" href="https://github.com/sara-bouchenak/DINAR">Code</a></div>
+        </div>
+      </article>
+
+      <article class="pub-row">
+        <div class="pub-thumb"><img src="assets/web/astral.webp" alt=""></div>
+        <div>
+          <div class="pub-meta"><span class="year">2024</span><span class="venue orange">UbiComp / IMWUT 2024</span></div>
+          <h3>Bias Mitigation in Federated Learning for Edge Computing</h3>
+          <div class="authors">Y. Djebrouni, N. Benarba, O. Touat, P. De Rosa, S. Bouchenak, et al.</div>
+          <div class="actions"><a class="action" href="https://dl.acm.org/doi/10.1145/3678529">Paper</a><a class="action" href="https://github.com/FL-Bias/ASTRAL">Code</a></div>
+        </div>
+      </article>
+
+      <div class="group-title">🇫🇷 National Conferences</div>
+
+      <article class="pub-row">
+        <div class="pub-thumb"><img src="assets/web/astral.webp" alt=""></div>
+        <div><div class="pub-meta"><span class="year">2024</span><span class="venue">ComPAS 2024</span></div>
+        <h3>ASTRAL: Accurate BiaS MiTigation in FedeRAted Learning</h3></div>
+      </article>
+      <article class="pub-row">
+        <div class="pub-thumb placeholder">◯◯◯</div>
+        <div><div class="pub-meta"><span class="year">2024</span><span class="venue gold">ComPAS 2024</span></div>
+        <h3>Multimodal Federated Learning: A Survey</h3></div>
+      </article>
+      <article class="pub-row">
+        <div class="pub-thumb placeholder">⌁</div>
+        <div><div class="pub-meta"><span class="year">2023</span><span class="venue orange">ComPAS 2023</span></div>
+        <h3>Empirical Analysis of Bias in Federated Learning</h3></div>
+      </article>
+    </section>
+
+    <section class="section" id="software">
+      <div class="section-head"><div class="section-icon">✦</div><h2>Software & Research Frameworks</h2></div>
+      <div class="cards3">
+        <article class="framework"><div class="ficon">⚖</div><h3>ASTRAL</h3><p>Fairness-aware federated learning and bias mitigation.</p></article>
+        <article class="framework"><div class="ficon">🛡</div><h3>DINAR</h3><p>Personalized privacy-preserving federated learning.</p></article>
+        <article class="framework"><div class="ficon">⌘</div><h3>ELAPSE</h3><p>Data selection balancing efficiency, effectiveness, and fairness.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="collaborations">
+      <div class="section-head"><div class="section-icon">🤝</div><h2>Collaborations</h2></div>
+      <div class="two-col">
+        <div class="info-card"><h3>France</h3><p>Lyon 1 University · Grenoble Alpes University · LIRIS collaborators.</p></div>
+        <div class="info-card"><h3>International</h3><p>University of Neuchâtel · University of Turin and other research partners.</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="teaching">
+      <div class="section-head"><div class="section-icon">🎓</div><h2>Teaching & Mentoring</h2></div>
+      <div class="two-col">
+        <div class="info-card"><h3>Teaching</h3><ul><li>Federated Learning — Master 2 MIASHS, Lyon 2 University</li><li>Programming Computer Networked Systems — INSA Lyon</li><li>Introductory Mathematics Courses — INSA Lyon</li></ul></div>
+        <div class="info-card"><h3>Mentoring</h3><ul><li>Research projects in data science, machine learning, fairness and privacy</li><li>Student supervision on data selection and bias analysis</li></ul></div>
+      </div>
+    </section>
+
+    <section class="section" id="service">
+      <div class="section-head"><div class="section-icon">◎</div><h2>Professional Service</h2></div>
+      <div class="timeline-item"><div class="timeline-date">2023–2026</div><div><h3>Doctoral Student Representative</h3><p>InfoMaths Lyon Doctoral School.</p></div></div>
+      <div class="timeline-item"><div class="timeline-date">2023–2024</div><div><h3>DRIM Team Seminar Coordinator</h3><p>LIRIS research seminars and reading-group sessions.</p></div></div>
+    </section>
+
+    <section class="section" id="reviewing">
+      <div class="section-head"><div class="section-icon">✓</div><h2>Reviewing</h2></div>
+      <div class="chips">
+        <span class="chip">SRDS 2025, 2026</span><span class="chip">ICDCS 2024, 2026</span>
+        <span class="chip gold">WAFL 2024–2026</span><span class="chip orange">Middleware 2026</span>
+        <span class="chip">IEEE TDSC 2026</span><span class="chip gray">PoPETs 2027</span>
+      </div>
+    </section>
+
+    <section class="section" id="talks">
+      <div class="section-head"><div class="section-icon">🎤</div><h2>Talks</h2></div>
+      <div class="timeline-item"><div class="timeline-date">2026</div><div><h3>Women in Science Workshop · WiSe</h3><p>Invited roundtable.</p></div></div>
+      <div class="timeline-item"><div class="timeline-date">2025</div><div><h3>DSN 2025</h3><p>Presentation on anomaly detection in Energy Performance Certificates.</p></div></div>
+      <div class="timeline-item"><div class="timeline-date">2024</div><div><h3>Middleware · UbiComp · ComPAS · M4DI</h3><p>Paper presentations and invited talks.</p></div></div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="section-head"><div class="section-icon">⌂</div><h2>Experience</h2></div>
+      <div class="timeline-item"><div class="timeline-date">2026–</div><div><h3>Postdoctoral Researcher — McGill University</h3><p>School of Computer Science.</p></div></div>
+      <div class="timeline-item"><div class="timeline-date">2022–2026</div><div><h3>Ph.D. in Computer Science — INSA Lyon</h3><p>Bias, Fairness and Privacy Guarantees in Decentralized AI.</p></div></div>
+      <div class="timeline-item"><div class="timeline-date">2021–2022</div><div><h3>Master 2 in Computer Systems — ESI Algiers</h3></div></div>
+    </section>
+
+    <div class="footer">© 2026 Nawel Benarba</div>
+  </main>
+</div>
+</body>
+</html>
