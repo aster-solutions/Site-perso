@@ -1,1 +1,169 @@
-d{display:grid;grid-template-columns:1fr 1fr;gap:15px}.collab-card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:20px;min-height:135px}.collab-card:nth-child(1),.collab-card:nth-child(4){border-top:4px solid var(--orange)}.collab-card:nth-child(2),.collab-card:nth-child(5){border-top:4px solid var(--blue)}.collab-card:nth-child(3),.collab-card:nth-child(6){border-top:4px solid var(--gold)}.collab-card h3{font-size:18px;margin:0 0 11px;color:var(--navy)}.collab-card p{font-size:14px;margin:4px 0;color:#59677A;font-weight:700}.teach-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.teach-card{border:1px solid var(--line);border-radius:22px;padding:20px;background:#fff;min-height:225px}.teach-card:nth-child(1){border-top:4px solid var(--orange);background:#FFFCFA}.teach-card:nth-child(2){border-top:4px solid var(--blue);background:#F8FAFD}.teach-card:nth-child(3){border-top:4px solid var(--gold);background:#FFFDF8}.pill{display:inline-block;padding:5px 10px;background:#F2F4F6;border-radius:999px;font-size:11px;font-weight:800;margin-bottom:9px}.teach-card h3{font-size:18px;margin:0 0 7px;color:var(--navy)}.teach-card p{font-size:14px;color:#5C6B80;margin:0}.mentor-title{font-size:17px;font-weight:800;color:#52657D;margin:22px 0 10px;padding-bottom:8px;border-bottom:1px solid var(--line)}.mentor-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.mentor{border:1px solid var(--line);border-radius:22px;padding:20px;background:#fff;border-top:4px solid var(--blue)}.mentor:nth-child(2){border-top-color:var(--gold)}.mentor h3{font-size:18px;margin:0 0 8px;color:var(--navy)}.mentor p{font-size:14px;color:#5C6B80;margin:0}.outreach{margin-top:14px;border:1px solid #E8DFC8;border-radius:22px;padding:18px;background:linear-gradient(90deg,#FFF9ED,#F5F8FC)}.outreach h3{font-size:17px;margin:0 0 5px;color:var(--navy)}.outreach p{font-size:14px;color:#5C6A7E;margin:0}.service-grid,.review-top{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.service-card,.review-card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:20px;min-height:215px}.service-card:nth-child(1){border-top:4px solid var(--blue)}.service-card:nth-child(2){border-top:4px solid var(--gold)}.service-card:nth-child(3){border-top:4px solid var(--orange)}.service-card h3,.review-card h3{font-size:18px;margin:8px 0;color:var(--navy)}.service-card p,.review-card p{margin:0;color:#5E6C80;font-size:14px}.review-card:nth-child(1){border-top:4px solid var(--orange);background:#FFFCFA}.review-card:nth-child(2){border-top:4px solid var(--blue)}.review-card:nth-child(3){border-top:4px solid var(--gold)}.additional{margin-top:14px;border:1px solid var(--line);border-radius:22px;background:#fff;padding:20px}.additional h3{font-size:18px;margin:0 0 10px;color:var(--navy)}.additional ul{margin:0;padding-left:21px;color:#5B6B80;display:grid;gap:7px;font-size:14px}.talkbox{background:#fff;border:1px solid var(--line);border-radius:22px;padding:5px 20px}.talkrow{display:grid;grid-template-columns:120px 1fr;gap:18px;padding:15px 0;border-bottom:1px solid #ECE8E5}.talkrow:last-child{border-bottom:0}.tdate{font-size:13px;color:var(--blue);font-weight:850}.talkrow h3{font-size:17px;margin:0 0 4px;color:var(--navy)}.talkrow p{font-size:14px;color:#5E6C80;margin:0}.exp-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.exp{border:1px solid var(--line);border-radius:22px;padding:18px;background:#fff}.exp:nth-child(2n){background:#F8FAFD;border-top:4px solid var(--blue)}.exp:nth-child(2n+1){border-top:4px solid var(--orange)}.exp:nth-child(3n){background:#FFFDF8;border-top-color:var(--gold)}.exp h3{font-size:17px;margin:0 0 5px;color:var(--navy)}.exp p{font-size:14px;color:#5D6B80;margin:0}.footer{padding:28px 0;color:#777F88;font-size:12px}@media(max-width:1050px){ .nav{display:none}.layout{grid-template-columns:1fr}.sidebar{position:static;display:grid;grid-template-columns:280px 1fr;gap:14px}.sidebox{margin-top:0} .news-card{flex-basis:72%}}@media(max-width:760px){ .layout,.topin{padding-left:16px;padding-right:16px}.sidebar{display:block}.sidebox{margin-top:14px} .news-card{flex-basis:90%}.frameworks,.collab-grid,.teach-grid,.mentor-grid,.service-grid,.review-top,.exp-grid{grid-template-columns:1fr} .talkrow{grid-template-columns:1fr;gap:4px}.pub{grid-template-columns:80px 1fr}.thumb,.no-thumb{width:80px;height:62px} .hero h2{font-size:36px}}.profile img{object-position:center 30%;}</style></head><body><header class="top"><div class="topin"><a class="brand" href="#top">Nawel Benarba</a><nav class="nav"><a href="#publications">Publications</a><a href="#software">Software</a><a href="#teaching">Teaching & Mentoring</a><a href="#service">Professional Service</a><a href="#reviewing">Reviewing</a><a href="#talks">Talks</a><a href="#experience">Experience</a></nav></div></header><div class="layout" id="top"><aside class="sidebar"><div class="profile"><img src="assets/web/profile_2026.svg" alt="Nawel Benarba"><div class="pinfo"><h1>Nawel Benarba</h1><p>Ph.D. in Computer Science · Trustworthy AI & Distributed Systems</p><div class="icons"><a class="circle" href="mailto:nawel.benarba@insa-lyon.fr" aria-label="Email"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></svg></a><a class="circle" href="tel:+33646024911" aria-label="Phone"><svg viewBox="0 0 24 24"><path d="M6.8 3.8 9.4 7 7.8 9.5c1.6 3.1 3.7 5.2 6.8 6.8l2.5-1.6 3.1 2.6c.3.3.4.7.2 1.1-.7 1.5-2 2.3-3.8 2.1C9.6 19.8 4.2 14.4 3.5 7.4c-.2-1.8.6-3.1 2.1-3.8.4-.2.9-.1 1.2.2z"/></svg></a><a class="circle" href="https://www.linkedin.com/" aria-label="LinkedIn"><b>in</b></a><a class="circle" href="https://scholar.google.com/" aria-label="Google Scholar"><b>G</b></a></div></div></div><div class="sidebox"><div class="side-label">Selected venues</div><div class="venue-chips"><span class="venue-chip">ACM Computing Surveys</span><span class="venue-chip">IEEE Access</span><span class="venue-chip">Middleware</span><span class="venue-chip">UbiComp</span><span class="venue-chip">DSN</span></div></div><div class="sidebox"><div class="side-label">At a glance</div><div class="glance"><div class="stat"><strong>7</strong><span>International publications</span></div><div class="stat"><strong>3</strong><span>Software frameworks</span></div><div class="stat"><strong>3</strong><span>Teaching modules</span></div><div class="stat"><strong>10+</strong><span>Reviewing & service roles</span></div></div></div><div class="sidebox"><div class="side-label">Research interests</div><ul class="interests"><li>Federated Learning</li><li>Fairness</li><li>Privacy</li><li>Data Selection</li><li>Distributed Systems</li></ul></div></aside><main class="main"><section class="hero"><div class="kicker">Trustworthy AI · Federated Learning · Distributed Systems</div><h2>Fair, privacy-preserving, and high-performing AI systems for decentralized systems.</h2><p>My research focuses on trustworthy machine learning in decentralized settings,
+ar(--orange)}
+.exp:nth-child(3n){background:#FFFDF8;border-top-color:var(--gold)}
+.exp h3{font-size:17px;margin:0 0 5px;color:var(--navy)}
+.exp p{font-size:14px;color:#5D6B80;margin:0}
+.footer{padding:28px 0;color:#777F88;font-size:12px}
+@media(max-width:1050px){ .nav{display:none}.layout{grid-template-columns:1fr}.sidebar{position:static;display:grid;grid-template-columns:280px 1fr;gap:14px}.sidebox{margin-top:0} .news-card{flex-basis:72%}
+}
+@media(max-width:760px){ .layout,.topin{padding-left:16px;padding-right:16px}.sidebar{display:block}.sidebox{margin-top:14px} .news-card{flex-basis:90%}.frameworks,.collab-grid,.teach-grid,.mentor-grid,.service-grid,.review-top,.exp-grid{grid-template-columns:1fr} .talkrow{grid-template-columns:1fr;gap:4px}.pub{grid-template-columns:80px 1fr}.thumb,.no-thumb{width:80px;height:62px} .hero h2{font-size:36px}
+} .profile img{object-position:center 30%;}
+</style><style>
+/* final refinements */
+.profile img{image-rendering:auto; object-fit:cover; object-position:center 20%;}
+.sicon svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.frameworks{grid-template-columns:repeat(4,1fr)}
+.framework .actions{margin-top:14px}
+.collab-card p a{color:var(--blue);font-weight:700;text-decoration:none}.collab-card p a:hover{text-decoration:underline}
+.thumb{background:#fff}.thumb img{width:100%;height:100%;object-fit:contain;padding:3px}
+.interests li{padding:1px 0}
+@media(max-width:1150px){.frameworks{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:760px){.frameworks{grid-template-columns:1fr}}
+</style><style>
+/* 2026-09 research-site refinements */
+.profile img{image-rendering:auto;object-fit:cover;object-position:center 18%;}
+.thumb{width:128px;height:88px;background:#fff;border-radius:15px;padding:5px;box-shadow:0 6px 18px rgba(23,58,94,.06)}
+.thumb img{width:100%;height:100%;object-fit:contain;image-rendering:auto;display:block}
+.pub{grid-template-columns:128px 1fr;gap:20px}
+.news-grid-static{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.news-static{min-width:0;position:relative;overflow:hidden;transition:transform .22s ease,box-shadow .22s ease}
+.news-static:hover{transform:translateY(-5px);box-shadow:0 18px 36px rgba(23,58,94,.09)}
+.news-static:after{content:"";position:absolute;left:0;bottom:0;width:100%;height:4px;background:linear-gradient(90deg,var(--blue),var(--gold),var(--orange));transform:scaleX(.28);transform-origin:left;transition:transform .3s ease}
+.news-static:hover:after{transform:scaleX(1)}
+.news-static.n1{background:linear-gradient(145deg,#fff,#eef5fa);border-top:4px solid var(--blue)}
+.news-static.n2{background:linear-gradient(145deg,#fff,#fbf2e7);border-top:4px solid var(--orange)}
+.news-static.n3{background:linear-gradient(145deg,#fff,#fbf5e3);border-top:4px solid var(--gold)}
+.news-spark{position:relative}.news-spark:after{content:"";position:absolute;width:7px;height:7px;border-radius:50%;background:var(--orange);top:5px;right:5px;box-shadow:0 0 0 0 rgba(201,120,50,.35);animation:newsPulse 2s infinite}
+@keyframes newsPulse{70%{box-shadow:0 0 0 8px rgba(201,120,50,0)}100%{box-shadow:0 0 0 0 rgba(201,120,50,0)}}
+.framework{position:relative;display:flex;flex-direction:column;min-height:210px;padding-bottom:58px}
+.framework .fi{width:46px;height:46px;display:grid;place-items:center;color:var(--navy);font-size:26px}
+.framework .fi svg{width:30px;height:30px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.github-link{position:absolute;right:18px;bottom:16px;width:38px;height:38px;border-radius:50%;display:grid;place-items:center;border:1px solid var(--line);background:#fff;color:var(--navy);transition:.2s}
+.github-link:hover{transform:translateY(-2px);background:var(--softblue)}
+.github-link svg{width:20px;height:20px}
+.mentor-grid{grid-template-columns:1fr;gap:14px}
+.mentor p+p{margin-top:9px}.mentor-project{color:var(--blue);font-weight:700}
+.service-card a,.collab-card a{color:var(--blue);font-weight:700;text-decoration:none}.service-card a:hover,.collab-card a:hover{text-decoration:underline}
+.review-list{margin:8px 0 0;padding-left:19px;color:#5e6c80}.review-list li+li{margin-top:8px}
+@media(max-width:1050px){.news-grid-static{grid-template-columns:1fr 1fr}.thumb{width:110px;height:80px}.pub{grid-template-columns:110px 1fr}}
+@media(max-width:760px){.news-grid-static{grid-template-columns:1fr}.pub{grid-template-columns:88px 1fr}.thumb{width:88px;height:70px}}
+</style><style id="final-live-fixes">
+.profile img{aspect-ratio:3/4;object-fit:cover;object-position:center top;}
+.frameworks{grid-template-columns:repeat(4,1fr)}
+.framework:nth-child(4){background:linear-gradient(145deg,#fff,#FBF5E4);border-top:4px solid var(--gold)}
+@media(max-width:1100px){.frameworks{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:760px){.frameworks{grid-template-columns:1fr}}
+</style><style>
+/* 2026-09-07 final visual refinements */
+.research-box .side-label{
+  font-size:14px;
+  font-weight:900;
+  color:var(--blue);
+  letter-spacing:.105em;
+}
+.research-box .interests{gap:9px}
+.research-box .interests li{
+  font-size:13.5px;
+  line-height:1.35;
+  font-weight:750;
+  color:var(--navy);
+}
+.profile img{
+  width:100%;
+  height:auto;
+  aspect-ratio:3/4;
+  object-fit:cover;
+  object-position:center 8%;
+  image-rendering:auto;
+}
+.pub{
+  grid-template-columns:210px 1fr;
+  gap:24px;
+  align-items:center;
+}
+.thumb{
+  position:relative;
+  width:210px;
+  height:126px;
+  padding:8px;
+  border-radius:17px;
+  background:#fff;
+  border:1px solid #dfe5ea;
+  box-shadow:0 8px 24px rgba(23,58,94,.075);
+  overflow:hidden;
+}
+.thumb img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  padding:0;
+  display:block;
+}
+.thumb-label{
+  position:absolute;
+  left:10px;
+  top:10px;
+  z-index:2;
+  padding:4px 8px;
+  border-radius:999px;
+  background:rgba(23,58,94,.92);
+  color:#fff;
+  font-size:10px;
+  line-height:1;
+  font-weight:850;
+  letter-spacing:.03em;
+  box-shadow:0 3px 10px rgba(0,0,0,.09);
+}
+.fr-flag{font-size:16px;vertical-align:-1px;margin-right:4px}
+#collaborations .sicon svg{width:22px;height:22px}
+#collaborations .sicon{background:linear-gradient(135deg,#eef5fb,#fff4e8)}
+.news-grid-static{align-items:stretch}
+.news-static{
+  min-height:205px;
+  padding-top:38px;
+  isolation:isolate;
+}
+.news-index{
+  position:absolute;
+  right:18px;
+  top:16px;
+  font-size:11px;
+  font-weight:900;
+  letter-spacing:.12em;
+  color:rgba(23,58,94,.42);
+}
+.news-static:before{
+  content:"";
+  position:absolute;
+  width:92px;height:92px;border-radius:50%;
+  right:-28px;bottom:-38px;
+  background:rgba(255,255,255,.46);
+  z-index:-1;
+}
+.live-indicator{
+  display:inline-flex;
+  align-items:center;
+  gap:7px;
+  font-weight:800;
+  color:var(--navy);
+}
+.live-dot{
+  width:8px;height:8px;border-radius:50%;
+  background:var(--orange);
+  box-shadow:0 0 0 0 rgba(201,120,50,.32);
+  animation:livePulse 2s infinite;
+}
+@keyframes livePulse{
+  70%{box-shadow:0 0 0 8px rgba(201,120,50,0)}
+  100%{box-shadow:0 0 0 0 rgba(201,120,50,0)}
+}
+.review-card .review-list{margin-top:12px}
+@media(max-width:1050px){
+  .pub{grid-template-columns:160px 1fr}
+  .thumb{width:160px;height:104px}
+}
+@media(max-width:760px){
+  .pub{grid-template-columns:110px 1fr;gap:14px}
+  .thumb{width:110px;height:78px;padding:5px}
+  .thumb-label{font-size:8px;left:6px;top:6px;padding:3px 6px}
+}
+</style></head><body><header class="top"><div class="topin"><a class="brand" href="#top">Nawel Benarba</a><nav class="nav"><a href="#publications">Publications</a><a href="#software">Software</a><a href="#teaching">Teaching &amp; Mentoring</a><a href="#service">Professional Services</a><a href="#reviewing">Reviewing</a><a href="#talks">Talks</a><a href="#experience">Experience</a></nav></div></header><div class="layout" id="top"><aside class="sidebar"><div class="profile"><img alt="Nawel Benarba" decoding="async" height="1280" loading="eager" src="assets/web/profile_2026.svg?v=20260907c" width="960"/><div class="pinfo"><h1>Nawel Benarba</h1><p>Ph.D. in Computer Science · Trustworthy AI &amp; Distributed Systems</p><div class="icons"><a aria-label="Email" class="circle" href="mailto:nawel.benarba@insa-lyon.fr"><svg viewbox="0 0 24 24"><path d="M4 6h16v12H4z"></path><path d="m4 7 8 6 8-6"></path></svg></a><a aria-label="Phone" class="circle" href="tel:+33646024911"><svg viewbox="0 0 24 24"><path d="M6.8 3.8 9.4 7 7.8 9.5c1.6 3.1 3.7 5.2 6.8 6.8l2.5-1.6 3.1 2.6c.3.3.4.7.2 1.1-.7 1.5-2 2.3-3.8 2.1C9.6 19.8 4.2 14.4 3.5 7.4c-.2-1.8.6-3.1 2.1-3.8.4-.2.9-.1 1.2.2z"></path></svg></a><a aria-label="LinkedIn" class="circle" href="https://www.linkedin.com/"><b>in</b></a></div></div></div><div class="sidebox research-box"><div class="side-label">Research interests</div><ul class="interests"><li>Federated &amp; Distributed Learning</li><li>Fairness &amp; Privacy</li><li>Efficient ML Systems</li><li>Efficient LLM Serving &amp; KV-Cache Management</li><li>AI Workload Characterization, Execution Traces &amp; Storage Benchmarking</li></ul></div><div class="sidebox"><div class="side-label">Selected venues</div><div class="venue-chips"><span class="venue-chip">ACM Computing Surveys</span><span class="venue-chip">IEEE Access</span><span class="venue-chip">Middleware</span><span class="venue-chip">UbiComp</span><span class="venue-chip">DSN</span></div></div><div class="sidebox"><div class="side-label">At a glance</div><div class="glance"><div class="stat"><strong>7</strong><span>International publications</span></div><div class="stat"><strong>4</strong><span>Software frameworks</span></div><div class="stat"><strong>3</strong><span>Teaching modules</span></div><div class="stat"><strong>10+</strong><span>Reviewing &amp; service roles</span></div></div></div></aside><main class="main"><section class="hero"><div class="kicker">Trustworthy &amp; Efficient AI · Federated Learning · ML Systems</div><h2>Trustworthy, efficient, and scalable AI systems for distributed and data-intensive workloads.</h2><p>My research spans trustworthy and efficient machine learning systems, from fairness and privacy in federated learning to resource-efficient training and inference, LLM serving, and workload characterization for distributed AI systems.</p></section><section class="section" id="news"><div class="shead"><div class="sicon news-spark">✦</div><h2>News</h2></div><p class="sub"><span class="live-indicator"><span class="live-dot"></span> Latest updates</span> · multiple highlights at a glance</p><div class="news-grid-static"><article class="news-card news-static n1"><span class="news-index">01</span><span class="badge">Publication</span><div class="ndate">2026</div><h3>IEEE Ac
